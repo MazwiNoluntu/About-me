@@ -1,0 +1,41 @@
+body{
+   background-color: aqua;
+}
+
+
+.aboutpagraphy img{
+    width: 100%;
+    height: 70vh;
+    
+}
+
+
+.aboutpagraphy{
+
+display: flex;
+flex-direction: row-reverse;
+   justify-content: space-around;
+   font-size:larger;
+   background-color: darkorchid;
+   border-style: solid;
+  border-color: red;
+}
+
+.paragraphydiv{
+    width: 45%;
+}
+h1{
+    align-items: center;
+    text-decoration: underline;
+}
+
+.row{
+    margin: 30px;
+    display: flex;
+    width: 95%;
+    height: 50px;
+    border-style: solid;
+    border-color: red;
+    background-color: chartreuse;
+    justify-content: space-between
+}
